@@ -34,14 +34,14 @@ If you are experience any errors related to authentication, do this:
 	git remote set-url origin https://tripville@github.com/tripville/tripshare.git
 Committing changes:
 
-Everytime you add a new file or make changes to existing file, you had to add
+Everytime you add a new file or make changes to existing file, you have to add
 files to the stage using following command :
 
 	git add filename1 filename2
 You can add everychange in one go, this add every filechange and new file
 to the stage:
 
-	git add.
+	git add .
 Then go and commit :
 
 	git commit -m "message"
