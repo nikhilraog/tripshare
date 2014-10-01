@@ -9,6 +9,10 @@ Authors:
 		Nikhil G Rao
 		Gautham Suriya M
 		Mukul Kulkarni
+Nikhil: 
+
+	Just added Dummy Weather Service app for your referece to get stared with Spring .Please go through the tutorials in Youtube on spring (any) ex: javabrains koushik spring or better Tutorials.
+
 Git Reference:
 
 Workflow :
