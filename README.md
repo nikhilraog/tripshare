@@ -15,7 +15,7 @@ Nikhil:
 
 Link Reference:
 	
-	http://viralpatel.net/blogs/spring-mvc-freemarker-ftl-example/	
+Mukul:	http://viralpatel.net/blogs/spring-mvc-freemarker-ftl-example/	
 
 Git Reference:
 
