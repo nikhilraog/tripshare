@@ -17,6 +17,7 @@ Link Reference:
 
 Nikhil :For Spring - JDBC Connect please go through this 
 	http://docs.spring.io/docs/Spring-MVC-step-by-step/part5.html
+	http://www.beingjavaguys.com/2013/07/spring-jdbc-template-with-spring-mvc.html
 	
 Mukul:	http://viralpatel.net/blogs/spring-mvc-freemarker-ftl-example/	
 
