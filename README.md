@@ -14,6 +14,9 @@ Nikhil:
 	Just added Dummy Weather Service app for your referece to get stared with Spring .Please go through the tutorials in Youtube on spring (any) ex: javabrains koushik spring or better Tutorials.
 
 Link Reference:
+
+Nikhil :For Spring - JDBC Connect please go through this 
+	http://docs.spring.io/docs/Spring-MVC-step-by-step/part5.html
 	
 Mukul:	http://viralpatel.net/blogs/spring-mvc-freemarker-ftl-example/	
 
