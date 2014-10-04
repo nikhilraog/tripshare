@@ -73,49 +73,4 @@ public class UserController {
  
         return "redirect:home.html";
     }
-    /**
-     * New Trip 
-     * same into FTL via redirect 
-     * 
-     * @param user
-     * @return Redirect to /home page to display user list
-     */
-    @RequestMapping(value = "/addtrip", method = RequestMethod.POST)
-    public String addtrip(@ModelAttribute("user") User user) {
- 
-        if (null != user && null != user.getUsername()
-                && null != user.getPassword() && !user.getUsername().isEmpty()
-                && !user.getPassword().isEmpty()) {
- 
-            synchronized (userList) {
-                userList.add(user);
-            }
- 
-        }
- 
-        return "redirect:home.html";
-    }
-    /**
-     * Login user 
-     * same into FTL via redirect 
-     * 
-     * @param user
-     * @return Redirect to /home page to display user list
-     */
-    @RequestMapping(value = "/searchtrip", method = RequestMethod.POST)
-    public String searchtrip(@ModelAttribute("user") User user) {
- 
-        if (null != user && null != user.getUsername()
-                && null != user.getPassword() && !user.getUsername().isEmpty()
-                && !user.getPassword().isEmpty()) {
- 
-            synchronized (userList) {
-                userList.add(user);
-            }
- 
-        }
- 
-        return "redirect:home.html";
-    }
- 
 }
