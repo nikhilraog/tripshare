@@ -28,6 +28,10 @@ Nishant:
 
 	Look in nishant/tripville for Spring + Hibernate based implementatin of Login system using MYSQL. 
 	Database is online, no local config needed
+http://shrestha-manoj.blogspot.com/2014/05/spring-mvc-maven-hibernate-crud-example.html
+
+http://blogrit.com/blog/Spring_3_and_Annotation_Based_Hibernate_4_Example
+
 
 Git Reference:
 
