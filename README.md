@@ -9,17 +9,25 @@ Authors:
 		Nikhil G Rao
 		Gautham Suriya M
 		Mukul Kulkarni
-Nikhil: 
 
-	Just added Dummy Weather Service app for your referece to get stared with Spring .Please go through the tutorials in Youtube on spring (any) ex: javabrains koushik spring or better Tutorials.
+Nikhil:  
 
-Link Reference:
+	Just added Dummy Weather Service app for your referece to get stared with Spring .Please go through
+        the tutorials in Youtube on spring (any) ex: javabrains koushik spring or better Tutorials.
+        Link References:
+		For Spring - JDBC Connect please go through this 
 
-Nikhil :For Spring - JDBC Connect please go through this 
-	http://docs.spring.io/docs/Spring-MVC-step-by-step/part5.html
-	http://www.beingjavaguys.com/2013/07/spring-jdbc-template-with-spring-mvc.html
+		http://docs.spring.io/docs/Spring-MVC-step-by-step/part5.html
+		http://www.beingjavaguys.com/2013/07/spring-jdbc-template-with-spring-mvc.html
 	
-Mukul:	http://viralpatel.net/blogs/spring-mvc-freemarker-ftl-example/	
+Mukul:	
+
+	http://viralpatel.net/blogs/spring-mvc-freemarker-ftl-example/	
+
+Nishant: 
+
+	Look in nishant/tripville for Spring + Hibernate based implementatin of Login system using MYSQL. 
+	Database is online, no local config needed
 
 Git Reference:
 
