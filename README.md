@@ -33,6 +33,12 @@ http://shrestha-manoj.blogspot.com/2014/05/spring-mvc-maven-hibernate-crud-examp
 http://blogrit.com/blog/Spring_3_and_Annotation_Based_Hibernate_4_Example
 
 
+
+Gautham:
+
+Have updated the online DB with the Schema. Please go through it and temme if any changes or douts arise.
+
+
 Git Reference:
 
 Workflow :
