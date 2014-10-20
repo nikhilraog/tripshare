@@ -10,6 +10,22 @@ Authors:
 		Gautham Suriya M
 		Mukul Kulkarni
 
+
+Nikhil: Data base tables are not created properly, There is no mapping between tables:
+	Example: Carinfo table is created this(below) way and there is no mapping to userindo table.
+	There might be many more tables that are not created properly so we neeed to create or edit current tables properly.
+	
+	CREATE TABLE `carinfo` (
+ `regno` char(7) NOT NULL,
+ `userid` varchar(10) NOT NULL,
+ `capacity` int(11) default NULL,
+ `model` char(20) default NULL,
+ PRIMARY KEY  (`regno`),
+ KEY `carinfo_userid_fkey` (`userid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8
+	
+
+     
 Nikhil:  
 
 	Just added Dummy Weather Service app for your referece to get stared with Spring .Please go through
