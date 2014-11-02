@@ -11,9 +11,7 @@ Authors:
 		Mukul Kulkarni
 
 
-Nikhil: Data base tables are not created properly, There is no mapping between tables:
-	Example: Carinfo table is created this(below) way and there is no mapping to userindo table.
-	There might be many more tables that are not created properly so we neeed to create or edit current tables properly.
+
 	
 	CREATE TABLE `carinfo` (
  `regno` char(7) NOT NULL,
