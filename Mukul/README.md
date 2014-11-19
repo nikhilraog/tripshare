@@ -6,3 +6,5 @@ Author: Mukul Kulkarni
 
 10/03/2014 : Added pages for "Create New Trip" and "Search Trip" along with controller classes.
 
+11/19/2014 : Updated Signup, Login, New Trip modules with sessions.
+
