@@ -17,6 +17,15 @@ public class TripServiceImpl implements TripService {
 	public Trip save(Trip tripDetails) {
 		return tripRepository.save(tripDetails);
 	}
-	
+
+	public String getUserId(String userName) {
+		Member member = tripRepository.getUserInfo(userName);
+		
+		if(member != null){
+			return String.valueOf(member.getId());
+		}
+			
+		return null;
+	}
 }
 

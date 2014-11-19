@@ -63,7 +63,6 @@
                 </li>
 
                 <li><a href="login.html">Sign In</a></li>
-                <li><a href="addtrip.html">Create New Trip</a></li>
             </ul>
         </div>
     </div>

@@ -15,6 +15,9 @@ public interface TripRepository extends CrudRepository<Trip, Long> {//extends Jp
 	/*@Query("select * from trip t where t.tripId = :tripId")
 	Trip findByTripId(@Param("tripId") String tripId);*/
 	
+	@Query("select m from Member m where m.userName = :userName")
+	Member getUserInfo(@Param("userName") String userName);
+	
 }
 
 

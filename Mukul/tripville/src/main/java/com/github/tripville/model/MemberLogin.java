@@ -3,7 +3,10 @@ package com.github.tripville.model;
 import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.NotEmpty;
-
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+@Component
+//@Scope("session")
 public class MemberLogin {
 
 	@NotEmpty

@@ -28,8 +28,8 @@ public class Trip {
 	
 	@Column(name = "userid")
 	@NotEmpty
-	@Size(min=4, max=10)
-	private String userid = "User001";
+	@Size(min=2, max=10)
+	private String userid;// = "User001";
 	
 	@Column(name = "startpt", length = 30)
 	@NotEmpty
@@ -49,14 +49,14 @@ public class Trip {
 	
 	@Column(name = "startdate")
 	@NotNull
-	@Past
+	@Future
 	@DateTimeFormat(pattern="MM/dd/yyyy")
 	private Date startDate;
 	
 	
 	@Column(name = "starttime")
 	@NotNull
-	@Past
+	@Future
 	@DateTimeFormat(pattern="MM/dd/yyyy")
 	private Date startTime;
 	

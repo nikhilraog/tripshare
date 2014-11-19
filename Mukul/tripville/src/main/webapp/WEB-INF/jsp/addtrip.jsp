@@ -57,8 +57,8 @@
 				<input type="text" class="form-control" placeholder="Search">
 			</form>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="/tripville">Home</a></li>
-				<li><a href="signup.html">My profile</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">My profile</a></li>
 				<li class="active"><a href="login.html">Logout</a></li>
 			</ul>
 		</div>
@@ -75,9 +75,8 @@
 		<div></div>
 	</div>
 
-	
 	<c:if test="${not empty message}">
-		<div class="message green">${message}</div>
+		<div class="message green" font-size="175%">${message}</div>
 	</c:if>
 	
 	<div class="col-lg-6 col-lg-offset-3">
@@ -153,9 +152,9 @@
 
 								
 								<div class="col-lg-9 col-lg-offset-3">
-									<button class="btn btn-default">Submit</button>
-									<button class="btn btn-primary">Reset</button>
-									<button class="btn btn-primary">Cancel</button>
+									<input class="btn btn-primary" type="submit" name="btnClk" value="Submit">
+									<input class="btn btn-primary" type="submit" name="btnClk" value="Reset">
+									<input class="btn btn-primary" type="submit" name="btnClk" value="Cancel">
 								</div>
 
 							</fieldset>

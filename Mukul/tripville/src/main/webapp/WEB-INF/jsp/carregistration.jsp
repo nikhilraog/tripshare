@@ -80,7 +80,7 @@
 	<div class="container">
 		<div class="jumbotron">
 			<div>
-				<h1>Signup Page</h1>
+				<h1>Car Registration</h1>
 
 			</div>
 		</div>
@@ -98,71 +98,28 @@
 				<div class="row">
 					<div class="col-lg-6">
 						<form:form id="myForm" method="post"
-							class="bs-example form-horizontal" commandName="student">
+							class="bs-example form-horizontal" commandName="carRegister">
 							<fieldset>
 								<legend>Signup Form</legend>
 
 								<div class="form-group">
-									<label for="userNameInput" class="col-lg-3 control-label">User
-										Name</label>
+									<label for="regno" class="col-lg-3 control-label">Car Registration</label>
 									<div class="col-lg-9">
-										<form:input type="text" class="form-control" path="userName"
-											id="userNameInput" placeholder="User Name" />
-										<form:errors path="userName" cssClass="error" />
+										<form:input type="text" class="form-control" path="regno"
+ 											id="carregno" placeholder="Car Registration Number"/>
+<%-- 										<form:errors path="userName" cssClass="error" /> --%>
 									</div>
 								</div>
 
-								<div class="form-group">
-									<label for="passwordInput" class="col-lg-3 control-label">Password</label>
+								<div class="form-group" >
+									<label for="userId" class="col-lg-3 control-label" style="display:none">user id hidden*</label>
 									<div class="col-lg-9">
-										<form:input type="password" class="form-control"
-											path="password" id="passwordInput" placeholder="Password" />
-										<form:errors path="password" cssClass="error" />
+										<form:input type="text" class="form-control" path="userid" style="display:none"
+ 											id="userId" placeholder="Car Registration" value="${student.userName}"/>
+<%-- 										<form:errors path="userid" cssClass="error" /> --%>
 									</div>
-								</div>
-
-								<div class="form-group">
-									<label for="firstNameInput" class="col-lg-3 control-label">First
-										Name</label>
-									<div class="col-lg-9">
-										<form:input type="text" class="form-control" path="firstName"
-											id="firstNameInput" placeholder="First Name" />
-										<form:errors path="firstName" cssClass="error" />
-									</div>
-								</div>
-
-								<div class="form-group">
-									<label for="lastNameInput" class="col-lg-3 control-label">Last
-										Name</label>
-									<div class="col-lg-9">
-										<form:input type="text" class="form-control" path="lastName"
-											id="lastNameInput" placeholder="Last Name" />
-										<form:errors path="lastName" cssClass="error" />
-									</div>
-								</div>
-
-								<div class="form-group">
-									<label for="dateOfBirthInput" class="col-lg-3 control-label">Date
-										of Birth</label>
-									<div class="date form_date col-lg-9" data-date-format="mm/dd/yyyy" data-date-viewmode="years">
-										<form:input type="text" class="form-control"											
-											path="dateOfBirth" id="dateOfBirthInput"
-											placeholder="Date of Birth" />
-										<form:errors path="dateOfBirth" cssClass="error" />
-									</div>
-								</div>
-
-								<div class="form-group">
-									<label for="emailAddressInput" class="col-lg-3 control-label">Email
-										Address</label>
-									<div class="col-lg-9">
-										<form:input type="text" class="form-control"
-											path="emailAddress" id="emailAddressInput"
-											placeholder="Email Address" />
-										<form:errors path="emailAddress" cssClass="error" />
-									</div>
-								</div>
-
+								</div>  
+								
 								<div class="col-lg-9 col-lg-offset-3">
 									<button class="btn btn-default">Cancel</button>
 
@@ -208,11 +165,12 @@
 		});
 	</script>
 
-	<script type="text/javascript">
+	<script type="text/javascript">	
 		$(function() {
 			var yesButton = $("#yesbutton");
-			var progress = $("#doitprogress");		
-			
+			var progress = $("#doitprogress");	
+			var userName = $("#userId");
+// 			userName.val($(student.userName));
 			yesButton.click(function() {		
 				yesButton.button("loading");
 
@@ -226,6 +184,7 @@
 						setTimeout(countDown, 100);
 					}
 				};
+				
 				
 				setTimeout(countDown, 100);
 			});
