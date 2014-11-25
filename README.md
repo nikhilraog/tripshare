@@ -10,6 +10,20 @@ Authors:
 		Gautham Suriya M
 		Mukul Kulkarni
 
+
+
+	
+	CREATE TABLE `carinfo` (
+ `regno` char(7) NOT NULL,
+ `userid` varchar(10) NOT NULL,
+ `capacity` int(11) default NULL,
+ `model` char(20) default NULL,
+ PRIMARY KEY  (`regno`),
+ KEY `carinfo_userid_fkey` (`userid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8
+	
+
+     
 Nikhil:  
 
 	Just added Dummy Weather Service app for your referece to get stared with Spring .Please go through
@@ -28,6 +42,16 @@ Nishant:
 
 	Look in nishant/tripville for Spring + Hibernate based implementatin of Login system using MYSQL. 
 	Database is online, no local config needed
+http://shrestha-manoj.blogspot.com/2014/05/spring-mvc-maven-hibernate-crud-example.html
+
+http://blogrit.com/blog/Spring_3_and_Annotation_Based_Hibernate_4_Example
+
+
+
+Gautham:
+
+Have updated the online DB with the Schema. Please go through it and temme if any changes or douts arise.
+
 
 Git Reference:
 
