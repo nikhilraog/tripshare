@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="D:\Android SDK + Eclipse adt-bundle-windows-x86_64[SIDS]\adt-bundle-windows-x86_64\eclipse" version="1.8.0_20">
+<bootpath>
+<entry path="D:\Android SDK + Eclipse adt-bundle-windows-x86_64[SIDS]\adt-bundle-windows-x86_64\eclipse\lib\resources.jar"/>
+<entry path="D:\Android SDK + Eclipse adt-bundle-windows-x86_64[SIDS]\adt-bundle-windows-x86_64\eclipse\lib\rt.jar"/>
+<entry path="D:\Android SDK + Eclipse adt-bundle-windows-x86_64[SIDS]\adt-bundle-windows-x86_64\eclipse\lib\sunrsasign.jar"/>
+<entry path="D:\Android SDK + Eclipse adt-bundle-windows-x86_64[SIDS]\adt-bundle-windows-x86_64\eclipse\lib\jsse.jar"/>
+<entry path="D:\Android SDK + Eclipse adt-bundle-windows-x86_64[SIDS]\adt-bundle-windows-x86_64\eclipse\lib\jce.jar"/>
+<entry path="D:\Android SDK + Eclipse adt-bundle-windows-x86_64[SIDS]\adt-bundle-windows-x86_64\eclipse\lib\charsets.jar"/>
+<entry path="D:\Android SDK + Eclipse adt-bundle-windows-x86_64[SIDS]\adt-bundle-windows-x86_64\eclipse\lib\jfr.jar"/>
+<entry path="D:\Android SDK + Eclipse adt-bundle-windows-x86_64[SIDS]\adt-bundle-windows-x86_64\eclipse\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\Android SDK + Eclipse adt-bundle-windows-x86_64[SIDS]\adt-bundle-windows-x86_64\eclipse\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\Android SDK + Eclipse adt-bundle-windows-x86_64[SIDS]\adt-bundle-windows-x86_64\eclipse\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>
