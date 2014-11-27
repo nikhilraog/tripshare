@@ -78,6 +78,7 @@
 								<div class="col-lg-9 col-lg-offset-3">
 									<input class="btn btn-primary" type="submit" name="btnClk" value="Add a trip">
 									<input class="btn btn-primary" type="submit" name="btnClk" value="Search trip">
+									<input class="btn btn-primary" type="submit" name="btnClk" value="View trip">
 								</div>
 							</fieldset>
 						</form:form>

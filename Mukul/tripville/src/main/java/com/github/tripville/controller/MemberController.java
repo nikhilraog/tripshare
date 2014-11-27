@@ -107,7 +107,10 @@ public class MemberController {
 			modelAndView.setViewName("redirect:/addtrip.html");
 		} else if (request.contains("Search")) {
 			modelAndView.setViewName("redirect:/searchtrip.html");
+		} else if (request.contains("View")) {
+			modelAndView.setViewName("redirect:/viewtrip.html");
 		}
+		
 		modelAndView.addObject("student", studentLogin);
 		session.setAttribute("student", studentLogin);
 		MemberLogin user = (MemberLogin) session.getAttribute("student");
@@ -116,4 +119,5 @@ public class MemberController {
 		
 		
 	}
+	
 }

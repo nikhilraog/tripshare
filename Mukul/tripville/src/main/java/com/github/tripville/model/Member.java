@@ -101,4 +101,10 @@ public class Member {
 	public void setDateOfBirth(Date dateOfBirth) {
 		this.dateOfBirth = dateOfBirth;
 	}	
+	@Override
+	public String toString() {
+		return "Member [id=" + id + ", userName=" + userName + ", firstName="
+				+ firstName + ", lastName=" + lastName + ", emailAddress="
+				+ emailAddress + ", dateOfBirth=" + dateOfBirth + "]";
+	}
 }

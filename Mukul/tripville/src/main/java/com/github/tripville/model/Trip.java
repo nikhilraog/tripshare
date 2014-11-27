@@ -71,8 +71,6 @@ public class Trip {
 	@NotEmpty
 	private String comments;
 	
-	
-	
 	public int getTripId() {
 		return tripid;
 	}
@@ -152,6 +150,5 @@ public class Trip {
 		this.comments = comments;
 	}
 
-	
 
 }

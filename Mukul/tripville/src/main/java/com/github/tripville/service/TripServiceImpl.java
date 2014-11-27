@@ -1,5 +1,7 @@
 package com.github.tripville.service;
 
+import java.util.ArrayList;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -26,6 +28,15 @@ public class TripServiceImpl implements TripService {
 		}
 			
 		return null;
+	}
+	
+	public Trip getTripDetails(int tripId) {
+		return tripRepository.findByTripId(tripId);
+	}
+	public ArrayList<Trip> getTripsforDriver(String loggedInUserId) {
+		
+		return tripRepository.getTripsForDriver(loggedInUserId);
+		
 	}
 }
 
